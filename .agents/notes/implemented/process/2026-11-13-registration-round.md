@@ -12,7 +12,7 @@ Status: implemented
 
 - 既有条目更新（3 个）：`#104` `dsh-archived-chats`（`48decc3`，商店文案对齐 npm `2.0.2`）、`#102` `dsh-thanks-carl`（`97eec8b`，对齐 `0.3.0`）、`#101` `dsh-plugin-restart-button`（`865d1d1`，补入 `npm` 字段）。
 - `#105` `dsh-sidebar-suite`（`4f31ba0`）：MIT 许可，npm `0.6.0`；合入评审附带两项不阻塞收录的改进建议，即将 `temp-session-config.txt` 迁出安装包目录，以及把 `setInterval` 挂入 `ctx.effect` 以便停用时自动回收。
-- `#99` `dsh-agent-lines`（`99ea1d1`）：Apache-2.0 许可，npm `0.12.0`，支持零配置启动，且 `engines.dsh` 声明为 `>=0.2.1-rc.5 <0.3.0`。
+- `#99` `dsh-agent-lines`（`99ea1d1`）：Apache-2.0 许可，npm `0.12.0`，支持零配置启动，且 `engines.dsh` 声明为 `>=0.2.1-rc.5 <0.3.0`。合入后在 `dsh-web` 市场产物回归（`scripts/market-layout.test.mjs:95-101`）发现非 `other` 一级分类必须携带 `subcategory`，而 `agent` 二级分类仅允许 `preset`；鉴于 `dsh-agent-lines` 属于跨会话开发工作流工具而非预设，随后在 `main` 将其分类调整为 `category: "tools"`、`subcategory: "dev"`。
 - `#83` `session-chains`（`feed4da`）：npm `0.2.0`，复核确认默认值全关及「套用」改写标题与卸载还原相关的商店说明均已落地。
 - `#77` `dsh-skills-tools`（`6c086e0`）与 `#75` `dsh-multithread-downloader`（`39b2994`）：分别对齐 npm `1.3.0` 与 npm `1.1.2`，前序反馈项已落实。
 - `#71` `dsh-jump`（`0f63f8e`）：npm `0.2.0`，确认文案不再写死默认和弦，且聚焦模式默认关闭。

@@ -55,7 +55,8 @@
     "descriptionEn": "Long-lived role lines for DSH: stable role identity plus a replaceable Session, durable messages, structured handoffs, retire/hibernate and a read-only board. Models positions, not a fixed workflow or DAG.",
     "repo": "https://github.com/Lencen/dsh-agent-lines",
     "npm": "dsh-agent-lines",
-    "category": "agent"
+    "category": "tools",
+    "subcategory": "dev"
   },
   {
     "id": "dsh-agent-plugins-market",
