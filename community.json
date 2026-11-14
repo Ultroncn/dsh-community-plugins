@@ -625,6 +625,18 @@
     "subcategory": "reading"
   },
   {
+    "id": "dsh-liquid-glass",
+    "name": "液态玻璃 · 主题背景",
+    "nameEn": "Liquid Glass Theme Backgrounds",
+    "author": "Ultroncn",
+    "description": "为 DSH Web 添加主题背景。在通用设置的外观下方调整透明度、选择图片或本地 MP4/WebM，并预览后保存。支持阅读保护、浅深色独立记忆及视频静止画面。",
+    "descriptionEn": "Adds theme backgrounds to DSH Web. Adjust transparency and preview an image or local MP4/WebM before saving under Appearance in General settings. Supports reading protection, separate light and dark appearance settings, and a still video frame.",
+    "repo": "https://github.com/Ultroncn/dsh-liquid-glass",
+    "npm": "dsh-liquid-glass",
+    "category": "ui",
+    "subcategory": "render"
+  },
+  {
     "id": "dsh-llm-keypool",
     "name": "多 Key 轮换池",
     "nameEn": "LLM Key Pool",
